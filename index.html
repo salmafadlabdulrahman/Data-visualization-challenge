@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="data.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.js"></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header id="countries">
+      <h2>World Countries Data</h2>
+      <p class="subtitle"></p>
+      <p class="feedback"></p>
+    </header>
+
+    <main>
+      <div class="wrapper">
+        <div class="graph-buttons">
+          <button class="population">Population</button>
+          <button class="languages">Languages</button>
+        </div>
+        <h4 class="graph-title"></h4>
+        
+      </div>
+    </main>
+
+    
+      <div class="container1">
+        <canvas id="myChart" width="200" height="100"></canvas>
+      </div>
+      <div class="container2">
+        <canvas id="languagesChart" width="200" height="100"></canvas>
+      </div>
+    
+
+    <script src="countries_data.js"></script>
+    <script src="data.js"></script>
+  </body>
+</html>
